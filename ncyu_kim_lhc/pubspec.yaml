@@ -1,0 +1,68 @@
+name: ncyu_kim_lhc
+description: "kim-lhc for ncyu project"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.6
+  video_player:
+  image_picker:
+  shared_preferences:
+  flutter_animated_button:
+  cupertino_icons:
+  flutter_svg:
+  rename_app:
+  path_provider:
+  gal:
+  permission_handler:
+  fluttertoast:
+  http:
+  loading_animation_widget:
+  flutter_slidable:
+  flutter_screenutil:
+  flutter_swipe_action_cell: ^3.1.3
+
+dev_dependencies:
+  flutter_launcher_icons:
+  flutter_test:
+    sdk: flutter
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/appicon.png"
+  min_sdk_android: 21
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.4
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/image/
+    - assets/image/ANone.png
+    - assets/image/A0.png
+    - assets/image/joint1.png
+    - assets/image/joint2.png
+    - assets/image/joint3.png
+    - assets/image/male.png
+    - assets/image/female.png
+    - assets/image/unfavorJoint.png
+    - assets/image/weather.png
+    - assets/image/holding.png
+    - assets/image/spatial.png
+    - assets/image/equipment.png
+    - assets/image/riskCal.png
+    - assets/icon/
